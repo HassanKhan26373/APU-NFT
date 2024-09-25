@@ -37,7 +37,6 @@ export default function Footer() {
             Join Us
             <FaTelegramPlane />
           </Link>
-
           <Link
             className="text-5xl bg-transparent hover:bg-[#3D71FA] py-4 px-8 rounded-xl border-4 flex flex-row gap-4"
             href=" https://twitter.com/apuscoin"
