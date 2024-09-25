@@ -20,17 +20,17 @@ export default function Footer() {
       />
       <div className=" flex flex-col justify-center items-center gap-16 absolute w-full top-[15%]">
         <p
-          className="text-8xl shadow-lg"
-          style={{
-            textShadow:
-              "0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #3D71FA, 0 0 30px #3D71FA, 0 0 40px #3D71FA, 0 0 50px #3D71FA, 0 0 60px #3D71FA",
-          }}
+          className="text-8xl shadow-lg text-white"
+          // style={{
+          //   textShadow:
+          //     "0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #3D71FA, 0 0 30px #3D71FA, 0 0 40px #3D71FA, 0 0 50px #3D71FA, 0 0 60px #3D71FA",
+          // }}
         >
           so, what are you waiting for?
         </p>
         <div className="flex flex-wrap gap-8 ">
           <Link
-            className="text-5xl bg-[#3D71FA] py-4 px-8 rounded-xl flex flex-row gap-4"
+            className="text-5xl bg-transparent hover:bg-[#3D71FA] py-4 px-8 rounded-xl flex flex-row gap-4 border-4"
             href="https://t.me/apuclub"
             target="_blank"
           >
@@ -39,7 +39,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            className="text-5xl bg-transparent py-4 px-8 rounded-xl border-4 flex flex-row gap-4"
+            className="text-5xl bg-transparent hover:bg-[#3D71FA] py-4 px-8 rounded-xl border-4 flex flex-row gap-4"
             href=" https://twitter.com/apuscoin"
             target="_blank"
           >

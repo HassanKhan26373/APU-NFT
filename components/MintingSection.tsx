@@ -127,7 +127,7 @@ export default function MintingSection() {
             <div className="flex gap-4 max-sm:flex-col">
               <div className="max-sm:items-center max-sm:flex max-sm:flex-col">
                 <p className="text-[30px] single-day-regular text-white">
-                  Date: Friday 10/04
+                  Date: Saturday 10/05
                 </p>
                 <p className="text-[30px] single-day-regular text-white">
                   Time: 12pm-4:20pm est
@@ -160,7 +160,7 @@ export default function MintingSection() {
             <div>
               <div className="max-sm:items-center max-sm:flex max-sm:flex-col">
                 <p className="text-[30px] single-day-regular text-white">
-                  Date: Friday 8/30
+                  Date: Saturday 10/05
                 </p>
                 <p className="text-[30px] single-day-regular text-white">
                   Time: 4:20pm est
